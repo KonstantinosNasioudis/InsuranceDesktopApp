@@ -1,0 +1,14 @@
+# Insurance Policy Management System
+
+A Python desktop application built with `ttkbootstrap` and MySQL for managing insurance policies, viewing and editing records, importing sample provider CSV/TXT files (`company1` and `company2`), and creating or restoring database backups.
+
+
+## Features
+
+- **Policy Entry:** Add new insurance policies with contract, customer, vehicle, and financial details.
+- **Policy Management & Search:** Search by customer name (including Greeklish-to-Greek conversion), license plate (normalized to Latin characters), or expiration month and year, and view, edit, or delete records.
+- **Provider Imports:** Import policy and coverage files for **Company 1** and **Company 2** into MySQL (`sumbolaia` table).
+- **Backup & Restore:** Export MySQL backups via `mysqldump` and restore `.sql` dumps via the MySQL client.
+- **Theme Toggle:** Switch between light (`flatly`) and dark (`darkly`) `ttkbootstrap` themes.
+
+
